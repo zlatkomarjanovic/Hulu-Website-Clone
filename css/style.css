@@ -31,6 +31,32 @@ img {
     width: 100%;
 }
 
+.btn {
+    display: inline-block; 
+    background:white; 
+    color: #333; 
+    min-width: 134px; 
+    padding: 20px 32px; 
+    font-size: 15px; 
+    font-weight: 600; 
+    line-height: 14px; 
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-cta:hover {
+    opacity: 0.8;
+}
+
+.legal-text {
+    font-size: 10px; 
+    color: gray; 
+    margin-top: 20px; 
+}
+
 h3 {
     font-size: 26px;
     font-weight: 300;
@@ -65,7 +91,26 @@ h3 {
     letter-spacing: 1px;
 }
 
+/* Header */
 .header .logo {
     width: 270px; 
     margin: 20px 0;
+}
+
+.header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header .header-text-1 {
+    font-size: 22px; 
+    font-weight: bold
+}
+
+.header .header-text-1 {
+    font-size: 18px; 
+    margin: 25px 0; 
 }
